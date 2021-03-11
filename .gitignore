@@ -2,3 +2,7 @@ __pycache__
 regexcel_env
 src
 target
+build/
+dist/
+*.spec
+test.py
