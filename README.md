@@ -4,22 +4,23 @@ Install commands:
 
 ```
 virtualenv -p python3 venv
-# Windows
+# On Windows
 source/Script/activate
-# Linux
+# On Linux
 source/bin/activate
 
-pip install pyqt5  
+pip install pyqt5 pywebview 
 ```
-
-
 
 
 Package commands:
 
 ```
-pip install fbs PyInstaller
+pip install fbs pyinstaller
 fbs startproject
 fbs run
 fbs freeze
 ```
+References:
+
+[link to fbs guide](https://www.pythonguis.com/tutorials/packaging-pyqt5-apps-fbs/)
