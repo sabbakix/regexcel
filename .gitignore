@@ -1,8 +1,8 @@
 __pycache__
-regexcel_env
-src
+.vscode/
 target
 build/
 dist/
+venv/
 *.spec
 test.py
